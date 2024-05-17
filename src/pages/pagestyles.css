@@ -1,0 +1,54 @@
+h1,
+h2,
+label,
+.menu-table th,
+.menu-table td {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message,
+.error-message {
+  color: red;
+}
+
+.loc{
+  color: white;
+  background-color: #333;
+  font-size: large;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0;
+}
+
+.menu-table th,
+.menu-table td {
+  padding: 10px;
+  text-align: left;
+  background-color: #333;
+}
+
+.menu-table th {
+  background-color: #333;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.menu-container {
+  position: relative;
+}
